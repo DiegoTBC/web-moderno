@@ -1,7 +1,7 @@
-let valor // não inicializada
+let valor // variavel declarada mas não inicializada
 console.log(valor)
 
-valor = null // ausência de valor
+valor = null // ausência de valor, não aponta para nenhum endereço de memória
 console.log(valor)
 // console.log(valor.toString()) // Erro!
 
