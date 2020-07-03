@@ -1,6 +1,9 @@
 console.log(soma(3, 4))
 
 // function declaration
+// O JS carrega primeiro todas as funções
+// Logo declarar dessa forma possibilitará chamar a função
+// acima da declaração
 function soma(x, y) {
     return x + y
 }
