@@ -9,7 +9,7 @@ const volvo = {
 }
 
 console.log(ferrari.prototype)
-console.log(ferrari.__proto__)
+console.log(ferrari.__proto__) //Procura quem é o objeto pai
 console.log(ferrari.__proto__ === Object.prototype)
 console.log(volvo.__proto__ === Object.prototype)
 console.log(Object.prototype.__proto__ === null)
