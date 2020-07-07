@@ -1,4 +1,4 @@
-require('./global')
+require('./6-global')
 
 console.log(MinhaApp.saudacao())
 
