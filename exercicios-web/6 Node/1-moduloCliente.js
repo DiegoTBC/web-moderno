@@ -1,5 +1,6 @@
-const moduloA = require('./moduloA')
-const moduloB = require('./moduloB')
+//Importando modulos
+const moduloA = require('./1-moduloA')
+const moduloB = require('./1-moduloB')
 
 console.log(moduloA.ola)
 console.log(moduloA.bemVindo)
