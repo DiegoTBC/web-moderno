@@ -6,6 +6,6 @@ const produto = {
     desconto: 0.15
 }
 
-fs.writeFile(__dirname + '/arquivoGerado.json', JSON.stringify(produto), err => {
+fs.writeFile(__dirname + '/10-arquivoGerado.json', JSON.stringify(produto), err => {
     console.log(err || 'Arquivo salvo!')
 })

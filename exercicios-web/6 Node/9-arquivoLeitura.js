@@ -1,6 +1,7 @@
 const fs = require('fs')
 
-const caminho = __dirname + '/arquivo.json'
+const caminho = __dirname + '/9-arquivo.json'
+// __dirname = constante presente no node que representa o diretorio atual
 
 // sincrono...
 const conteudo = fs.readFileSync(caminho, 'utf-8')
@@ -12,7 +13,8 @@ fs.readFile(caminho, 'utf-8', (err, conteudo) => {
     console.log(`${config.db.host}:${config.db.port}`)
 })
 
-const config = require('./arquivo.json')
+// Usando o require o json ja vem convertido em objeto
+const config = require('./9-arquivo.json')
 console.log(config.db)
 
 fs.readdir(__dirname, (err, arquivos) => {

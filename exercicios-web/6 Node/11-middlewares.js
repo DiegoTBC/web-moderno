@@ -1,6 +1,6 @@
 // middleware pattern (chain of responsibility)
 const passo1 = (ctx, next) => {
-    ctx.valor1 = 'mid1'
+    ctx.valor1 = 'mid1' //adicionou um atributo ao objeto ctx
     next()
 }
 
